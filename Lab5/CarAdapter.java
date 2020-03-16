@@ -30,8 +30,13 @@ public class CarAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View element;
 
-        LayoutInflater layoutInflater = context.getLayoutInflater();
-        element = layoutInflater.inflate(R.layout.list_item, null);
+        if(view == null)
+        {
+            LayoutInflater layoutInflater = context.getLayoutInflater();
+            element = layoutInflater.inflate(R.layout.list_item, null);
+        }
+        else element = view;
+
         TagCar car = new TagCar();
         car.name = element.findViewById(R.id.tv_name_element);
         car.image = element.findViewById(R.id.iv_image_element);
