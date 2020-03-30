@@ -3,10 +3,10 @@
 
 Primul exercitiu contine doua butoane (“Listen it” si “Tap to open mic”) si un EditText.
 
-Butonul de jos, “Tap to open mic”, implementeaza un convertor Speech-to-Text, 
+Butonul de jos, “Tap to open mic”, implementeaza un convertor **Speech-to-Text**, 
 adica deschide microfonul telefonului, asteapta sa i se comunice un text, apoi il afiseaza in EditText-ul de pe mijlocul ecranului. 
 
-Butonul de sus, “Listen it”, permite utilizatorului sa asculte textul din EditText, deci face o conversie Text-to-Speech.
+Butonul de sus, “Listen it”, permite utilizatorului sa asculte textul din EditText, deci face o conversie **Text-to-Speech**.
 
 La prima rulare, aplicatia cere utilizatorului permisiunea de a folosi microfonul (“android.permission.RECORD_AUDIO”). 
 Daca permisiunea este acceptata deja, aplicatia nu o mai cere in viitor. 
