@@ -25,6 +25,6 @@ Astfel, activitatea care se va folosi de Fragment trebuie sa extinda FragmentAct
 <img src="https://i.imgur.com/HNcml0w.png" width="60">  <img src="https://i.imgur.com/dOxV9if.png" width="60"> 
 
 ## Concluzii
-Nu am avut nicio dificultate in realizarea laboratorului 😊
+Cu permisiunile a fost putin mai tricky, dar nu am avut nicio dificultate in realizarea laboratorului 😊
 
 Consider ca atat conversiile, cat si Fragment-urile sunt niste concepte foarte utile dupa un mic efort de intelegere. 
